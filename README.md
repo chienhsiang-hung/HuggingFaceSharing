@@ -17,6 +17,11 @@ python -m venv venv
 .\venv\Scripts\activate
 pip install qdrant-client pandas numpy faker
 ```
+## Get-ExecutionPolicy
+```powershell
+Get-ExecutionPolicy
+powershell -ep bypass
+```
 
 # Ref
 [isdaviddong/test_Qdrant](https://github.com/isdaviddong/test_Qdrant)
