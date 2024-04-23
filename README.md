@@ -12,6 +12,11 @@ AttributeError: module 'jax.random' has no attribute 'KeyArray'
 docker pull qdrant/qdrant
 docker run -p 6333:6333 qdrant/qdrant
 ```
+```powershell
+python -m venv venv
+.\venv\Scripts\activate
+pip install qdrant-client pandas numpy faker
+```
 
 # Ref
 [isdaviddong/test_Qdrant](https://github.com/isdaviddong/test_Qdrant)
