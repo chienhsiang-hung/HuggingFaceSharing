@@ -16,7 +16,9 @@ docker run -p 6333:6333 qdrant/qdrant
 python -m venv venv
 .\venv\Scripts\activate
 pip install qdrant-client pandas numpy faker
+pip install transformers datasets torch sentence-transformers
 ```
+
 ## Get-ExecutionPolicy
 ```powershell
 Get-ExecutionPolicy
