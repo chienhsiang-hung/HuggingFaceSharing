@@ -12,12 +12,17 @@ AttributeError: module 'jax.random' has no attribute 'KeyArray'
 docker pull qdrant/qdrant
 docker run -p 6333:6333 qdrant/qdrant
 ```
+## Make your own Env
 ```powershell
 python -m venv venv
 .\venv\Scripts\activate
 pip install qdrant-client pandas numpy faker
 pip install transformers datasets torch sentence-transformers
 ```
+and run `pip freeze > requirements.txt` to export the config.
+
+## How to Work with a requirements.txt File
+`pip install -r requirements.txt`
 
 ## Get-ExecutionPolicy
 ```powershell
